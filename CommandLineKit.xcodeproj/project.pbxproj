@@ -3,574 +3,462 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"CommandLineKit::CommandLineKitPackageTests::ProductTarget" /* CommandLineKitPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_46 /* Build configuration list for PBXAggregateTarget "CommandLineKitPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_49 /* PBXTargetDependency */,
+			);
+			name = CommandLineKitPackageTests;
+			productName = CommandLineKitPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		5D06884F19674D7D00BBFAAC /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D06884319674D7D00BBFAAC /* CommandLineKit.framework */; };
-		5D06885619674D7D00BBFAAC /* CommandLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06885519674D7D00BBFAAC /* CommandLineTests.swift */; };
-		5D06886019674DA600BBFAAC /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06885F19674DA600BBFAAC /* CommandLine.swift */; };
-		5D068867196A212A00BBFAAC /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D068866196A212A00BBFAAC /* Option.swift */; };
-		5D449A18198B015E00F9A8A6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D449A17198B015E00F9A8A6 /* StringExtensions.swift */; };
-		5D8DC809198D8BA0007CD61B /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8DC808198D8BA0007CD61B /* StringExtensionTests.swift */; };
+		OBJ_25 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_31 /* CommandLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CommandLineTests.swift */; };
+		OBJ_32 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* StringExtensionTests.swift */; };
+		OBJ_34 /* CommandLineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "CommandLineKit::CommandLineKit::Product" /* CommandLineKit.framework */; };
+		OBJ_41 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* CommandLine.swift */; };
+		OBJ_42 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Option.swift */; };
+		OBJ_43 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D06885019674D7D00BBFAAC /* PBXContainerItemProxy */ = {
+		1BE4BC431FA6883B007B27DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D06883A19674D7D00BBFAAC /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D06884219674D7D00BBFAAC;
-			remoteInfo = CommandLine;
+			remoteGlobalIDString = "CommandLineKit::CommandLineKit";
+			remoteInfo = CommandLineKit;
 		};
-		5D0688621969D22E00BBFAAC /* PBXContainerItemProxy */ = {
+		1BE4BC441FA6883B007B27DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5D06883A19674D7D00BBFAAC /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5D06884219674D7D00BBFAAC;
-			remoteInfo = CommandLine;
-		};
-		5D0688641969D22E00BBFAAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D06883A19674D7D00BBFAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D06884219674D7D00BBFAAC;
-			remoteInfo = CommandLine;
-		};
-		5D449B5D198B40F100F9A8A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D06883A19674D7D00BBFAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D06884219674D7D00BBFAAC;
-			remoteInfo = CommandLine;
-		};
-		5D449B5F198B40F100F9A8A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D06883A19674D7D00BBFAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D06884219674D7D00BBFAAC;
-			remoteInfo = CommandLine;
-		};
-		5D449B61198B410C00F9A8A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D06883A19674D7D00BBFAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D06884219674D7D00BBFAAC;
-			remoteInfo = CommandLine;
-		};
-		5D449BA7198B490500F9A8A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D06883A19674D7D00BBFAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D06884219674D7D00BBFAAC;
-			remoteInfo = CommandLine;
-		};
-		5D449BC3198B4ACD00F9A8A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D06883A19674D7D00BBFAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D06884219674D7D00BBFAAC;
-			remoteInfo = CommandLine;
+			remoteGlobalIDString = "CommandLineKit::CommandLineKitTests";
+			remoteInfo = CommandLineKitTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1968E1361C85926C00418122 /* LinuxMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
-		5D06884319674D7D00BBFAAC /* CommandLineKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommandLineKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D06884719674D7D00BBFAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D06884E19674D7D00BBFAAC /* CommandLineKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandLineKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D06885419674D7D00BBFAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/CommandLineKitTests/Info.plist; sourceTree = SOURCE_ROOT; };
-		5D06885519674D7D00BBFAAC /* CommandLineTests.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; name = CommandLineTests.swift; path = Tests/CommandLineKitTests/CommandLineTests.swift; sourceTree = SOURCE_ROOT; tabWidth = 2; usesTabs = 0; };
-		5D06885F19674DA600BBFAAC /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
-		5D068866196A212A00BBFAAC /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
-		5D449A17198B015E00F9A8A6 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
-		5D449B63198B412E00F9A8A6 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
-		5D8DC808198D8BA0007CD61B /* StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; name = StringExtensionTests.swift; path = Tests/CommandLineKitTests/StringExtensionTests.swift; sourceTree = SOURCE_ROOT; tabWidth = 2; usesTabs = 0; };
+		"CommandLineKit::CommandLineKit::Product" /* CommandLineKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CommandLineKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"CommandLineKit::CommandLineKitTests::Product" /* CommandLineKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CommandLineKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		OBJ_11 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		OBJ_14 /* CommandLineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineTests.swift; sourceTree = "<group>"; };
+		OBJ_15 /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
+		OBJ_16 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = script; sourceTree = SOURCE_ROOT; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* CommandLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D06883F19674D7D00BBFAAC /* Frameworks */ = {
+		OBJ_33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+				OBJ_34 /* CommandLineKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D06884B19674D7D00BBFAAC /* Frameworks */ = {
+		OBJ_44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				5D06884F19674D7D00BBFAAC /* CommandLineKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1968E1351C85922A00418122 /* Tests */ = {
+		OBJ_12 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				1968E1361C85926C00418122 /* LinuxMain.swift */,
-				5D06885219674D7D00BBFAAC /* CommandLineKitTests */,
+				OBJ_13 /* CommandLineKitTests */,
 			);
-			path = Tests;
-			sourceTree = "<group>";
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
 		};
-		5D06883919674D7D00BBFAAC = {
+		OBJ_13 /* CommandLineKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				5D449B63198B412E00F9A8A6 /* ReadMe.md */,
-				5D06884519674D7D00BBFAAC /* CommandLineKit */,
-				1968E1351C85922A00418122 /* Tests */,
-				5D06884419674D7D00BBFAAC /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		5D06884419674D7D00BBFAAC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D06884319674D7D00BBFAAC /* CommandLineKit.framework */,
-				5D06884E19674D7D00BBFAAC /* CommandLineKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5D06884519674D7D00BBFAAC /* CommandLineKit */ = {
-			isa = PBXGroup;
-			children = (
-				5D06885F19674DA600BBFAAC /* CommandLine.swift */,
-				5D068866196A212A00BBFAAC /* Option.swift */,
-				5D449A17198B015E00F9A8A6 /* StringExtensions.swift */,
-				5D06884619674D7D00BBFAAC /* Supporting Files */,
-			);
-			path = CommandLineKit;
-			sourceTree = "<group>";
-		};
-		5D06884619674D7D00BBFAAC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D06884719674D7D00BBFAAC /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5D06885219674D7D00BBFAAC /* CommandLineKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				5D06885519674D7D00BBFAAC /* CommandLineTests.swift */,
-				5D8DC808198D8BA0007CD61B /* StringExtensionTests.swift */,
-				5D06885319674D7D00BBFAAC /* Supporting Files */,
+				OBJ_14 /* CommandLineTests.swift */,
+				OBJ_15 /* StringExtensionTests.swift */,
 			);
 			name = CommandLineKitTests;
 			path = Tests/CommandLineKitTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
-		5D06885319674D7D00BBFAAC /* Supporting Files */ = {
+		OBJ_17 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D06885419674D7D00BBFAAC /* Info.plist */,
+				"CommandLineKit::CommandLineKitTests::Product" /* CommandLineKitTests.xctest */,
+				"CommandLineKit::CommandLineKit::Product" /* CommandLineKit.framework */,
 			);
-			name = "Supporting Files";
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_12 /* Tests */,
+				OBJ_16 /* script */,
+				OBJ_17 /* Products */,
+			);
+			name = "";
 			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* CommandLineKit */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* CommandLineKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* CommandLine.swift */,
+				OBJ_10 /* Option.swift */,
+				OBJ_11 /* StringExtensions.swift */,
+			);
+			name = CommandLineKit;
+			path = Sources/CommandLineKit;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		5D06884019674D7D00BBFAAC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		5D06884219674D7D00BBFAAC /* CommandLineKit */ = {
+		"CommandLineKit::CommandLineKit" /* CommandLineKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D06885919674D7D00BBFAAC /* Build configuration list for PBXNativeTarget "CommandLineKit" */;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "CommandLineKit" */;
 			buildPhases = (
-				5D06883E19674D7D00BBFAAC /* Sources */,
-				5D06883F19674D7D00BBFAAC /* Frameworks */,
-				5D06884019674D7D00BBFAAC /* Headers */,
-				5D06884119674D7D00BBFAAC /* Resources */,
+				OBJ_40 /* Sources */,
+				OBJ_44 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CommandLineKit;
-			productName = CommandLine;
-			productReference = 5D06884319674D7D00BBFAAC /* CommandLineKit.framework */;
+			productName = CommandLineKit;
+			productReference = "CommandLineKit::CommandLineKit::Product" /* CommandLineKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5D06884D19674D7D00BBFAAC /* CommandLineKitTests */ = {
+		"CommandLineKit::CommandLineKitTests" /* CommandLineKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D06885C19674D7D00BBFAAC /* Build configuration list for PBXNativeTarget "CommandLineKitTests" */;
+			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "CommandLineKitTests" */;
 			buildPhases = (
-				5D06884A19674D7D00BBFAAC /* Sources */,
-				5D06884B19674D7D00BBFAAC /* Frameworks */,
-				5D06884C19674D7D00BBFAAC /* Resources */,
+				OBJ_30 /* Sources */,
+				OBJ_33 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D06885119674D7D00BBFAAC /* PBXTargetDependency */,
-				5D0688631969D22E00BBFAAC /* PBXTargetDependency */,
-				5D0688651969D22E00BBFAAC /* PBXTargetDependency */,
-				5D449B5E198B40F100F9A8A6 /* PBXTargetDependency */,
-				5D449B60198B40F100F9A8A6 /* PBXTargetDependency */,
-				5D449B62198B410C00F9A8A6 /* PBXTargetDependency */,
-				5D449BA8198B490500F9A8A6 /* PBXTargetDependency */,
-				5D449BC4198B4ACD00F9A8A6 /* PBXTargetDependency */,
+				OBJ_35 /* PBXTargetDependency */,
 			);
 			name = CommandLineKitTests;
-			productName = CommandLineTests;
-			productReference = 5D06884E19674D7D00BBFAAC /* CommandLineKitTests.xctest */;
+			productName = CommandLineKitTests;
+			productReference = "CommandLineKit::CommandLineKitTests::Product" /* CommandLineKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"CommandLineKit::SwiftPMPackageDescription" /* CommandLineKitPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_21 /* Build configuration list for PBXNativeTarget "CommandLineKitPackageDescription" */;
+			buildPhases = (
+				OBJ_24 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandLineKitPackageDescription;
+			productName = CommandLineKitPackageDescription;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5D06883A19674D7D00BBFAAC /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "Ben Gollmer";
-				TargetAttributes = {
-					5D06884219674D7D00BBFAAC = {
-						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0900;
-					};
-					5D06884D19674D7D00BBFAAC = {
-						CreatedOnToolsVersion = 6.0;
-						LastSwiftMigration = 0900;
-						TestTargetID = 5D06884219674D7D00BBFAAC;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 5D06883D19674D7D00BBFAAC /* Build configuration list for PBXProject "CommandLineKit" */;
-			compatibilityVersion = "Xcode 6.3";
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "CommandLineKit" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 5D06883919674D7D00BBFAAC;
-			productRefGroup = 5D06884419674D7D00BBFAAC /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D06884219674D7D00BBFAAC /* CommandLineKit */,
-				5D06884D19674D7D00BBFAAC /* CommandLineKitTests */,
+				"CommandLineKit::SwiftPMPackageDescription" /* CommandLineKitPackageDescription */,
+				"CommandLineKit::CommandLineKitTests" /* CommandLineKitTests */,
+				"CommandLineKit::CommandLineKit" /* CommandLineKit */,
+				"CommandLineKit::CommandLineKitPackageTests::ProductTarget" /* CommandLineKitPackageTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		5D06884119674D7D00BBFAAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D06884C19674D7D00BBFAAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		5D06883E19674D7D00BBFAAC /* Sources */ = {
+		OBJ_24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				5D449A18198B015E00F9A8A6 /* StringExtensions.swift in Sources */,
-				5D068867196A212A00BBFAAC /* Option.swift in Sources */,
-				5D06886019674DA600BBFAAC /* CommandLine.swift in Sources */,
+				OBJ_25 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D06884A19674D7D00BBFAAC /* Sources */ = {
+		OBJ_30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				5D06885619674D7D00BBFAAC /* CommandLineTests.swift in Sources */,
-				5D8DC809198D8BA0007CD61B /* StringExtensionTests.swift in Sources */,
+				OBJ_31 /* CommandLineTests.swift in Sources */,
+				OBJ_32 /* StringExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_41 /* CommandLine.swift in Sources */,
+				OBJ_42 /* Option.swift in Sources */,
+				OBJ_43 /* StringExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D06885119674D7D00BBFAAC /* PBXTargetDependency */ = {
+		OBJ_35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D06884219674D7D00BBFAAC /* CommandLineKit */;
-			targetProxy = 5D06885019674D7D00BBFAAC /* PBXContainerItemProxy */;
+			target = "CommandLineKit::CommandLineKit" /* CommandLineKit */;
+			targetProxy = 1BE4BC431FA6883B007B27DD /* PBXContainerItemProxy */;
 		};
-		5D0688631969D22E00BBFAAC /* PBXTargetDependency */ = {
+		OBJ_49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D06884219674D7D00BBFAAC /* CommandLineKit */;
-			targetProxy = 5D0688621969D22E00BBFAAC /* PBXContainerItemProxy */;
-		};
-		5D0688651969D22E00BBFAAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D06884219674D7D00BBFAAC /* CommandLineKit */;
-			targetProxy = 5D0688641969D22E00BBFAAC /* PBXContainerItemProxy */;
-		};
-		5D449B5E198B40F100F9A8A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D06884219674D7D00BBFAAC /* CommandLineKit */;
-			targetProxy = 5D449B5D198B40F100F9A8A6 /* PBXContainerItemProxy */;
-		};
-		5D449B60198B40F100F9A8A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D06884219674D7D00BBFAAC /* CommandLineKit */;
-			targetProxy = 5D449B5F198B40F100F9A8A6 /* PBXContainerItemProxy */;
-		};
-		5D449B62198B410C00F9A8A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D06884219674D7D00BBFAAC /* CommandLineKit */;
-			targetProxy = 5D449B61198B410C00F9A8A6 /* PBXContainerItemProxy */;
-		};
-		5D449BA8198B490500F9A8A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D06884219674D7D00BBFAAC /* CommandLineKit */;
-			targetProxy = 5D449BA7198B490500F9A8A6 /* PBXContainerItemProxy */;
-		};
-		5D449BC4198B4ACD00F9A8A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D06884219674D7D00BBFAAC /* CommandLineKit */;
-			targetProxy = 5D449BC3198B4ACD00F9A8A6 /* PBXContainerItemProxy */;
+			target = "CommandLineKit::CommandLineKitTests" /* CommandLineKitTests */;
+			targetProxy = 1BE4BC441FA6883B007B27DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5D06885719674D7D00BBFAAC /* Debug */ = {
+		OBJ_22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CommandLineKit.xcodeproj/CommandLineKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CommandLineKitTests;
+			};
+			name = Debug;
+		};
+		OBJ_29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CommandLineKit.xcodeproj/CommandLineKitTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CommandLineKitTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		5D06885819674D7D00BBFAAC /* Release */ = {
+		OBJ_38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CommandLineKit.xcodeproj/CommandLineKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CommandLineKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CommandLineKit;
+			};
+			name = Debug;
+		};
+		OBJ_39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CommandLineKit.xcodeproj/CommandLineKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = CommandLineKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = CommandLineKit;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				METAL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		5D06885A19674D7D00BBFAAC /* Debug */ = {
+		OBJ_47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = CommandLineKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jatoben.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		5D06885B19674D7D00BBFAAC /* Release */ = {
+		OBJ_48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = CommandLineKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jatoben.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		5D06885D19674D7D00BBFAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/CommandLineKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jatoben.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		5D06885E19674D7D00BBFAAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/CommandLineKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.github.jatoben.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D06883D19674D7D00BBFAAC /* Build configuration list for PBXProject "CommandLineKit" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "CommandLineKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D06885719674D7D00BBFAAC /* Debug */,
-				5D06885819674D7D00BBFAAC /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		5D06885919674D7D00BBFAAC /* Build configuration list for PBXNativeTarget "CommandLineKit" */ = {
+		OBJ_21 /* Build configuration list for PBXNativeTarget "CommandLineKitPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D06885A19674D7D00BBFAAC /* Debug */,
-				5D06885B19674D7D00BBFAAC /* Release */,
+				OBJ_22 /* Debug */,
+				OBJ_23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		5D06885C19674D7D00BBFAAC /* Build configuration list for PBXNativeTarget "CommandLineKitTests" */ = {
+		OBJ_27 /* Build configuration list for PBXNativeTarget "CommandLineKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D06885D19674D7D00BBFAAC /* Debug */,
-				5D06885E19674D7D00BBFAAC /* Release */,
+				OBJ_28 /* Debug */,
+				OBJ_29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_37 /* Build configuration list for PBXNativeTarget "CommandLineKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_38 /* Debug */,
+				OBJ_39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_46 /* Build configuration list for PBXAggregateTarget "CommandLineKitPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_47 /* Debug */,
+				OBJ_48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5D06883A19674D7D00BBFAAC /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
