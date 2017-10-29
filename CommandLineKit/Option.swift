@@ -2,6 +2,8 @@
  * Option.swift
  * Copyright (c) 2014 Ben Gollmer.
  *
+ * 2017/10/29 by Poul Williams: Converted to Swift 4
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at

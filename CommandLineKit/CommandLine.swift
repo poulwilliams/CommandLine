@@ -2,6 +2,8 @@
  * CommandLine.swift
  * Copyright (c) 2014 Ben Gollmer.
  *
+ * 2017/10/29 by Poul Williams: Converted to Swift 4
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -310,12 +312,12 @@ public class CommandLine {
       }
 
       /* Remove attached argument from flag */
-      let splitFlag = flagWithArg.split(by: argumentAttacher, maxSplits: 1)
+      let splitFlag = flagWithArg.split(separator: argumentAttacher, maxSplits: 1)
       let flag = splitFlag[0]
-      let attachedArg: String? = splitFlag.count == 2 ? splitFlag[1] : nil
+      let attachedArg: String? = splitFlag.count == 2 ? String(splitFlag[1]) : nil
 
       var flagMatched = false
-      for option in _options where option.flagMatch(flag) {
+      for option in _options where option.flagMatch(String(flag)) {
         let vals = self._getFlagValues(idx, attachedArg)
         guard option.setValue(vals) else {
           throw ParseError.invalidValueForOption(option, vals)

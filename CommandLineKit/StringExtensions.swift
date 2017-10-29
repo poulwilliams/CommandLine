@@ -2,6 +2,8 @@
  * StringExtensions.swift
  * Copyright (c) 2014 Ben Gollmer.
  *
+ * 2017/10/29 by Poul Williams: Converted to Swift 4
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -62,14 +64,14 @@ internal extension String {
     for i in self.characters.indices {
       let c = self[i]
       if c == by && (maxSplits == 0 || numSplits < maxSplits) {
-        s.append(self[curIdx..<i])
+        s.append(String(self[curIdx..<i]))
         curIdx = self.index(after: i)
         numSplits += 1
       }
     }
 
     if curIdx != self.endIndex {
-      s.append(self[curIdx..<self.endIndex])
+      s.append(String(self[curIdx..<self.endIndex]))
     }
 
     return s
