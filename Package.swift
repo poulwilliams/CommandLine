@@ -19,5 +19,6 @@ import PackageDescription
 
 let package = Package(
   name: "CommandLine",
+  target: [],
   exclude: ["script"]
 )
