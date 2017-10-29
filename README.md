@@ -1,4 +1,13 @@
-# CommandLineKit [![Build Status](https://travis-ci.org/jatoben/CommandLine.svg?branch=master)](https://travis-ci.org/jatoben/CommandLine)
+# CommandLineKit
+
+<p>
+<a href="https://developer.apple.com/osx/"><img src="https://img.shields.io/badge/Platform-macOS-blue.svg?style=flat" alt="Platform: macOS" /></a>
+<a href="https://developer.apple.com/swift/"><img src="https://img.shields.io/badge/Language-Swift%204.0-green.svg?style=flat" alt="Language: Swift 4.0" /></a>
+<a href="https://developer.apple.com/xcode/"><img src="https://img.shields.io/badge/IDE-Xcode%209.0-orange.svg?style=flat" alt="IDE: Xcode 9.0" /></a>
+<a href="https://raw.githubusercontent.com/objecthub/swift-lispkit/master/LICENSE"><img src="http://img.shields.io/badge/License-Apache-lightgrey.svg?style=flat" alt="License: Apache" /></a>
+</p>
+
+NOTE: This is NOT the original CommandLineKit. This is just my own fork of it. The original is here: https://github.com/jatoben/CommandLine
 
 A pure Swift library for creating command-line interfaces.
 
